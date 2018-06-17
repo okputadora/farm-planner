@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import WelcomePage from './Containers/Layout/WelcomePage/WelcomePage';
 import LoginSignup from './Containers/Layout/LoginSignup/LoginSignup';
+import PlanSeason from './Containers/Layout/PlanSeason/PlanSeason';
 // import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 // import { Provider } from 'react-redux';
 // import thunk from 'redux-thunk';
@@ -32,6 +33,7 @@ const App = (props) => (
       <main>
         <Route path="/" exact component={WelcomePage} />
         <Route path="/login" exact component={LoginSignup} />
+        <Route path="/planSeason" exact component={PlanSeason} />
       </main>
     </BrowserRouter>
   // </Provider>

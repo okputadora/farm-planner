@@ -12,3 +12,8 @@
 .Input:focus {
   outline-width: 0;
 }
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(26, 33, 51) inset;
+    -webkit-text-fill-color: #888 !important;
+}

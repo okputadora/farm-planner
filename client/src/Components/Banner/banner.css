@@ -1,0 +1,8 @@
+.Banner {
+  width: 100%;
+  height: 400px;
+  background-image: url('./fieldprep.jpg'); //placeholder
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

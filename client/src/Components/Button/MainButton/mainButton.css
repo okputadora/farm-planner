@@ -1,0 +1,15 @@
+.MainButton {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  margin: 15px;
+  color: rgb(26, 33, 51);
+  cursor: pointer;
+  transition: .2s ease-out;
+}
+
+.MainButton:hover {
+  color: white;
+  background-color: rgb(26, 33, 51);
+}

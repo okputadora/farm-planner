@@ -1,0 +1,7 @@
+.Description {
+  width: 100%;
+  background-color: #1a2133;
+  box-shadow: 0 -24px 68px 20px rgba(26,33,51,1), 0 -90px 46px 200px rgba(26,33,51,0.64), 0 -110px 150px -7px rgba(26,33,51,0.44);
+  height: 800px;
+  z-index: 1000;
+}

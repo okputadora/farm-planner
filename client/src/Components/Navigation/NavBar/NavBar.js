@@ -10,7 +10,7 @@ const NavBar = props => {
       <div className={classes.Links}>
         <Link className={classes.Link} to="#">About</Link>
         <Link className={classes.Link} to="#">Tutorial</Link>
-        <Link className={classes.Link} to="#">Login/Signup</Link>
+        <Link className={classes.Link} to="login">Login/Signup</Link>
         <Link className={classes.Link} to="#">Pricing</Link>
       </div>
     </nav>

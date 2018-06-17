@@ -1,0 +1,21 @@
+.NavBar {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c2c2c;
+  color: white;
+  height: 40px;
+}
+
+.Links {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.Wrapper {
+  position: fixed;
+  width: 300px;
+  left: calc(50% - 150px);
+  border: 1px solid rgb(26, 33, 51);
+}
+
+.DropDown > div {
+
+}
+
+.Open {
+  display: flex;
+  flex-flow: column;
+}
+
+.Close {
+  display: none;
+}

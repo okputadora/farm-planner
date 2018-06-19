@@ -31,17 +31,17 @@ class LoginSignUp extends Component {
 
 
   render(){
+    const inputs = Object.keys(this.state).map(input => {
+      let type = (input === 'password'|| input === 'email') ? input : 'text'
+      return <Input change={this.onChangeHandler} name={input} placeholder={type} type={type}/>
+    })
     return (
       <Aux>
         <NavBar />
         <div className={classes.Login}>
           <h3>Login/Signup</h3>
           <FormCard type="LoginCard">
-            <Input change={this.onChangeHandler} name="firstName" placeholder="First Name" type="text"/>
-            <Input change={this.onChangeHandler} name="lastName" placeholder="Last Name" type="text"/>
-            <Input change={this.onChangeHandler} name="username" placeholder="username" type="text"/>
-            <Input change={this.onChangeHandler} name="email" placeholder="email" type="email"/>
-            <Input change={this.onChangeHandler} name="password" placeholder="password" type="password"/>
+            {inputs}
             <Button click={this.loginAction}>Start Your Season</Button>
           </FormCard>
         </div>

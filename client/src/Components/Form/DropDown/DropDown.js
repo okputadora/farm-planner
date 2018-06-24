@@ -27,7 +27,7 @@ class DropDown extends Component{
     return (
       <div onClick={this.toggleList} className={classes.Wrapper}>
         <div className={classes.Header}>{this.props.title}</div>
-        <div className={classes.DropDown, ddState}>{list}</div>
+        <div className={[classes.DropDown, ddState].join(", ")}>{list}</div>
       </div>
     )
   }
